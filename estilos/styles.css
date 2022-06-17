@@ -1,0 +1,52 @@
+:root{
+    --colorRojito: #f20000
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#start{
+    padding:15px;
+    background-color: var(--colorRojito);
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+#start:hover{
+    background-color: transparent;
+    border: 1px solid #f20000;
+}
+
+
+canvas{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.noShow{
+    display: none;
+}
